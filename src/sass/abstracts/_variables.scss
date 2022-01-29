@@ -1,0 +1,50 @@
+// COLORS
+$color-primary-1: #51c37e;
+$color-primary-2: #3e3e3e;
+$color-primary-3: #feb42b;
+$color-primary-4: #159a4a;
+$color-primary-5: #ebdab5;
+
+// blue-variants
+$color-darkblue: hsl(220, 13%, 13%);
+$color-darkgrayish-blue: hsl(219, 9%, 45%);
+$color-grayish-blue: hsl(220, 14%, 75%);
+$color-lightgrayish-blue: hsl(220, 11%, 89%);
+$color-lightergrayish-blue: hsl(223, 64%, 98%);
+
+// sidebar backdrop
+$color-sidebar-backdrop: rgba(0, 0, 0, 0.32);
+
+// overlay colors
+$color-gray-1: rgba(255, 255, 255, 0.589);
+$color-gray-2: rgba(255, 255, 255, 0.411);
+
+$color-white: hsl(0, 0%, 100%);
+$color-black: hsl(0, 0%, 0%);
+
+// FONT
+$default-font-size: 1.6rem;
+
+// VIEWPORT
+$vw-sm: 640px;
+$vw-md: 768px;
+$vw-lg: 1024px;
+$vw-xl: 1280px;
+$vw-2xl: 1536px;
+$vw-desktop-max: 1400px;
+
+// PATH
+$image-path: "/public/images";
+
+// SHADOW
+$shadow-smooth-8: 0 1px 1px hsla(0deg, 0%, 0%, 0.075),
+  0 2px 2px hsla(0deg, 0%, 0%, 0.075), 0 4px 4px hsla(0deg, 0%, 0%, 0.075),
+  0 8px 8px hsla(0deg, 0%, 0%, 0.075);
+$shadow-smooth-16: 0 1px 1px hsla(0deg, 0%, 0%, 0.075),
+  0 2px 2px hsla(0deg, 0%, 0%, 0.075), 0 4px 4px hsla(0deg, 0%, 0%, 0.075),
+  0 8px 8px hsla(0deg, 0%, 0%, 0.075), 0 16px 16px hsla(0deg, 0%, 0%, 0.075);
+
+$shadow-smooth-24: 0 1px 1px hsla(0deg, 0%, 0%, 0.08),
+  0 2px 2px hsla(0deg, 0%, 0%, 0.08), 0 4px 4px hsla(0deg, 0%, 0%, 0.08),
+  0 8px 8px hsla(0deg, 0%, 0%, 0.08), 0 16px 16px hsla(0deg, 0%, 0%, 0.08),
+  0 24px 24px hsla(0, 0%, 0%, 0.08);

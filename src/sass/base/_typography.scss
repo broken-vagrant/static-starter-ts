@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.6rem;
+}
+h3 {
+  margin: 1em 0;
+}
+
+h4 {
+  margin: 0.7em 0;
+}
+h2 {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+
+  @media screen and (max-width: $vw-lg) {
+    font-size: 3.5em;
+    margin-top: 0.8em;
+  }
+  @media screen and (max-width: $vw-sm) {
+    font-size: 3em;
+    margin-top: 0.5em;
+  }
+}
+h3 {
+  margin-top: 2em;
+  @media screen and (max-width: $vw-sm) {
+    font-size: 2em;
+  }
+}
+p {
+  color: $color-primary-2;
+
+  @media screen and (max-width: $vw-sm) {
+    margin: 1.5em 0 2em;
+    font-size: 2em;
+  }
+}
