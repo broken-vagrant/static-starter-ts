@@ -6,7 +6,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/js/index.js',
+    index: './src/ts/index.ts',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -20,6 +20,9 @@ module.exports = {
     client: {
       logging: 'none',
     }
+  },
+  resolve: {
+    extensions: ['.ts', '.js'],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -46,15 +49,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.ts$/,
+        use: 'ts-loader',
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ["@babel/preset-env"],
-            cacheDirectory: true
-          }
-        }
       },
       {
         // CSS Modules
